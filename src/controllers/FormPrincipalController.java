@@ -33,9 +33,6 @@ public class FormPrincipalController implements Initializable {
     private Button btnCerrar;
 
     @FXML
-    private Button btnModificar;
-
-    @FXML
     private TextField txtNombre;
 
     @FXML
@@ -163,4 +160,8 @@ public class FormPrincipalController implements Initializable {
         this.viewLista.refresh();
     }
 
+    @FXML
+    public void borrar(){
+        
+    }
 }
